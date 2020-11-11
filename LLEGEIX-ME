@@ -1,0 +1,33 @@
+APARTAT 1 PRIMERA PART:
+git clone https://github.com/dacomo2021daw2/prjava02.git
+
+APARTAT 1 SEGONA PART:
+git branch branca00
+git checkout branca00
+git status
+
+APARTAT 5 PRIMERA PART :
+git status
+git ls-tree -r main
+
+APARTAT 6 PRIMERA PART:
+git remote rm origin
+git remote -v
+
+APARTAT 6 SEGONA PART:
+No que puedo ver la última linea porque no he hecho el cambio en este branca.
+
+APARTAT 7 SEGONA PART:
+git checkout branca00
+Si que puedo ver la última linea porque he hecho el cambio en este branca.
+
+APARTAT 10 SEGONA PART:
+git merge branca00 main
+
+APARTAT 12 SEGONA PART:
+git push -u origin main
+Solo se ha actualizado la branca main porque el push lo hemos realizado desde la branca main
+
+APARTAT 14 SEGONA PART:
+git push -u origin branca01
+Esta a 1 commit de la branca main.
